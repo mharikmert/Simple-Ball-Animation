@@ -1,0 +1,199 @@
+                h{
+                    height: 3px;
+                    font-weight: 15px;
+                    margin-top: 10px;
+                    background-position: 450px;
+                    background-color: blue;
+                    padding: 20px;
+                    position: 450px;
+                }  
+                #bigBox{
+                    display: flex;
+                    width: 3000px;
+                    height:2000px; 
+                    position: relative;
+                    background-color: darkgreen;
+                    background-position-x: 50%;
+                    background-position-y: 50%;
+                } 
+
+                .circle{
+                    height:200px;
+                    width: 200px;
+                    border-radius: 50%;
+                    position: absolute;
+                    margin: 0 25px 25px 0;
+                }
+                .inCircle{
+                    height:200px;
+                    width: 200px;
+                    border-radius: 50%;
+                    position: absolute;
+                    margin: 0 25px 25px 0;
+                    
+                }
+                #black{
+                    background-color: black;  
+                    animation: firstMove 3s infinite;
+                    animation-direction: alternate;
+                    animation-direction: alternate reverse;
+                }
+               
+                #pink{
+                background-color:pink;
+                left:0%;
+                top: 89.7%;
+                animation: secondMove 3s infinite;
+                animation-direction: alternate;
+                animation-direction: alternate reverse;
+                
+                } 
+                
+                #red{
+                    background-color: red;
+                    left: 93.2%;
+                    top:89.7%;
+                    animation:firstMove 3s infinite;
+                    animation-direction: alternate reverse;
+                    animation-direction: alternate;
+                    
+               }
+                #brown{
+                    background-color: brown;
+                    left:2800px;
+                    top:0px;
+                    background-position-x: 500px;
+                    background-position-y: 500px;
+                    animation: secondMove 3s infinite;
+                    animation-direction:alternate reverse;
+                    animation-direction:alternate;
+                   
+                 }
+                 #stopButton{
+                    top: 46.65%;
+                    left: 46.65%;
+                    background-color:yellow;
+                   -webkit-transform:
+                   translateY(-33px)
+                   translateX(2px);
+                }
+                
+                #diagonal1{
+                    width:3600px;
+                    height:20px;
+                    border-bottom: 5px solid magenta;
+                    transform:
+                    translateY(980px)
+                    translateX(-295px)
+                  rotate(33.6deg);
+                    
+                }
+                #diagonal2{
+                    width:3600px;
+                    height:20px;
+                    border-bottom: 5px solid black;
+                    transform:
+                    translateY(955px)
+                    translateX(-305px)  
+                    rotate(-33.6deg)
+                }
+                #bat{
+                    position: relative;
+                    width: 1200px;
+                    height: 30px;
+                    background-color: black;
+                    border-top-left-radius: 35%;
+                    border-bottom-left-radius :35%;
+                   
+                }
+
+                #magenta{
+                    background-color:magenta; 
+                    animation: toRight 1.5s;
+                    left:1400px;
+                    top:0px;
+                }
+
+                
+                #magenta2{
+                    background-color: magenta;
+                    animation: toDown 1.5s;
+                    animation-delay: 1.5s;
+                    left: 1400px;
+                
+                }
+                #cyan{
+                    background-color: cyan;
+                    animation: toDown 1.5s;
+                    left:2800px;
+                    top:900px;
+                }
+                #cyan2{
+                    background-color: cyan;
+                    left:2800px;
+                    top: 900px;
+                    animation: toLeft 1.5s;
+                    animation-delay: 1.5s;
+                }
+
+                #chocolate{
+                    background-color: chocolate;
+                    left:0px;
+                    top:900px;
+                    animation: toLeft 1.5s; 
+                 }
+                #chocolate2{
+                    background-color: chocolate;
+                    left:1400px;
+                    top:1800px;
+                    animation: toUp 1.5s;
+                    animation-delay: 1.5s;
+                }
+                 #indigo{
+                    background-color: indigo;
+                    left:1400px;
+                    top:1800px; 
+                    animation: toUp 1.5s;  
+                }
+                #indigo2{
+                    background-color: indigo;
+                    left:0px;
+                    top:900px;
+                    animation: toRight 1.5s;
+                    animation-delay: 1.5s;
+                }
+
+               /*@keyframes firstMove{
+                    from{top:0px;}
+                    to{top:1800px;}
+                }
+                @keyframes secondMove{
+                    from{left: 0px;}
+                    to{left: 2800px;}
+                }
+                @keyframes toRight{
+                    from{left:0px;}
+                    to{left:1400px;}
+                }
+                @keyframes toLeft{
+                    from{left:2800px;}
+                    to{left:1400px;}
+                }
+                @keyframes toDown{
+                    from{top:0px;}
+                    to{top:900px;}
+                }
+                @keyframes toUp{
+                    from{top:1800px;}
+                    to{top:900px;}
+                }  
+               */
+                
+                div.diagonal{
+                    display : none;
+                }
+
+                
+
+
+
