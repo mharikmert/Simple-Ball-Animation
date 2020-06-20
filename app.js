@@ -446,9 +446,4 @@
                     else 
                     dom.style.left = e.clientX + 200 + "px";
                 }
-
-                // To Do 
-                /*
-                Tail moves will be done when mouse clicked.
-                Balls moves will be done  
-                */
+         
