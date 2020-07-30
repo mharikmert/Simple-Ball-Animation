@@ -4,8 +4,8 @@
                     var blue = document.getElementById('blue');
                     var green = document.getElementById('green');
                     var black = document.getElementById('black');
-              
-                    
+
+
                     function stopObject(object){
                         var obj = document.getElementById(object);
                         var id = setInterval(frame,5);
@@ -39,11 +39,11 @@
                             pos += 2;
                             box.style.top = pos + "px";
                             box.style.left = pos * 1.55556 + "px";
-                            
+
                         }
                     }
                 }
-                
+
                 function moveRed(color){
                     var box = document.getElementById(color);
                     var pos = 1800;
@@ -93,7 +93,7 @@
                             pos -= 2;
                             box.style.top = pos + "px";
                             box.style.left = 2800 - pos*1.55556 + "px";
-                            
+
                         }
                     }
                 }
@@ -112,7 +112,7 @@
                                 } else{
                                     pos -= 2;
                                     box.style.top = pos + "px";
-                                    box.style.left = 2800 - pos*1.55556 + "px";  
+                                    box.style.left = 2800 - pos*1.55556 + "px";
                                  }
                             }
                         } else{
@@ -181,7 +181,7 @@
                                             box.style.top = pos + "px";
                                         }
                                     }
-                                  
+
                                 }else{
                                     pos -= 5;
                                     box.style.left = pos + "px";
@@ -221,7 +221,7 @@
                                 }else{
                                     pos += 5;
                                     box.style.top = pos + "px";
-                                }  
+                                }
                             }
                         }else{
                             pos += 5;
@@ -363,10 +363,10 @@
                         }
                     }
                 }
-                // write a initialize function for all reset 
+                // write a initialize function for all reset
                 function start(){
-                    moveBlack('black'); 
-                    movePink('pink');               
+                    moveBlack('black');
+                    movePink('pink');
                     moveRed('red');
                     moveBrown('brown');
                     /*moveIndigo('indigo');
@@ -375,7 +375,7 @@
                     moveChocolate('chocolate');*/
                     indigoUpDown('indigo');
                     magentaUpDown('magenta');
-                    //indigoUpDown('magenta'); 
+                    //indigoUpDown('magenta');
                     /*chocolateLeftRight('chocolate');
                     cyanRightLeft('cyan');*/
                 }
@@ -389,17 +389,18 @@
                     magenta: document.querySelector('magenta'),
                     chocolate: document.querySelector('chocolate')
                 }
-                 document.querySelector('#stopButton').addEventListener('click',function(){
+                 /*document.querySelector('#stopButton').addEventListener('click',function(){
                     clickCounter++;
                     getLocation('black');
                     getLocation('red');
                     console.log('button was pressed ' + clickCounter + " times");
                     start();
                 });
-
+                *
                 if(clickCounter == 4){
                     stopObject('black');
                 }
+                */
                /* var moving = false;
                 var element = document.getElementById('black');
                 element.addEventListener('transitionend',function(){
@@ -417,8 +418,9 @@
                 }
                 window.requestAnimationFrame(getPosition);
                 */
+                /*
                 var dom = document.querySelector('#bat');
-                
+
                 function batMove(e){
                     var x = e.clientX;
                     var y = e.clientY;
@@ -427,7 +429,7 @@
                     dom.style.top = y + "px";
                 }
 
-               
+
                 document.querySelector('#bigBox').addEventListener('mousedown',function(){
                        mouseClicked(event);
                     });
@@ -443,7 +445,6 @@
                 function mouseReleased(e){
                     if(e.clientX > 1500)
                     dom.style.left = e.clientX - 200 + "px";
-                    else 
+                    else
                     dom.style.left = e.clientX + 200 + "px";
-                }
-         
+                }*/

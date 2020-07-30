@@ -6,16 +6,16 @@
                     background-color: blue;
                     padding: 20px;
                     position: 450px;
-                }  
+                }
                 #bigBox{
                     display: flex;
                     width: 3000px;
-                    height:2000px; 
+                    height:2000px;
                     position: relative;
                     background-color: darkgreen;
                     background-position-x: 50%;
                     background-position-y: 50%;
-                } 
+                }
 
                 .circle{
                     height:200px;
@@ -30,15 +30,15 @@
                     border-radius: 50%;
                     position: absolute;
                     margin: 0 25px 25px 0;
-                    
+
                 }
                 #black{
-                    background-color: black;  
+                    background-color: black;
                     animation: firstMove 3s infinite;
                     animation-direction: alternate;
                     animation-direction: alternate reverse;
                 }
-               
+
                 #pink{
                 background-color:pink;
                 left:0%;
@@ -46,9 +46,9 @@
                 animation: secondMove 3s infinite;
                 animation-direction: alternate;
                 animation-direction: alternate reverse;
-                
-                } 
-                
+
+                }
+
                 #red{
                     background-color: red;
                     left: 93.2%;
@@ -56,7 +56,7 @@
                     animation:firstMove 3s infinite;
                     animation-direction: alternate reverse;
                     animation-direction: alternate;
-                    
+
                }
                 #brown{
                     background-color: brown;
@@ -67,7 +67,7 @@
                     animation: secondMove 3s infinite;
                     animation-direction:alternate reverse;
                     animation-direction:alternate;
-                   
+
                  }
                  #stopButton{
                     top: 46.65%;
@@ -77,7 +77,7 @@
                    translateY(-33px)
                    translateX(2px);
                 }
-                
+
                 #diagonal1{
                     width:3600px;
                     height:20px;
@@ -86,7 +86,7 @@
                     translateY(980px)
                     translateX(-295px)
                   rotate(33.6deg);
-                    
+
                 }
                 #diagonal2{
                     width:3600px;
@@ -94,7 +94,7 @@
                     border-bottom: 5px solid black;
                     transform:
                     translateY(955px)
-                    translateX(-305px)  
+                    translateX(-305px)
                     rotate(-33.6deg)
                 }
                 #bat{
@@ -104,23 +104,23 @@
                     background-color: black;
                     border-top-left-radius: 35%;
                     border-bottom-left-radius :35%;
-                   
+
                 }
 
                 #magenta{
-                    background-color:magenta; 
+                    background-color:magenta;
                     animation: toRight 1.5s;
                     left:1400px;
                     top:0px;
                 }
 
-                
+
                 #magenta2{
                     background-color: magenta;
                     animation: toDown 1.5s;
                     animation-delay: 1.5s;
                     left: 1400px;
-                
+
                 }
                 #cyan{
                     background-color: cyan;
@@ -140,7 +140,7 @@
                     background-color: chocolate;
                     left:0px;
                     top:900px;
-                    animation: toLeft 1.5s; 
+                    animation: toLeft 1.5s;
                  }
                 #chocolate2{
                     background-color: chocolate;
@@ -152,8 +152,8 @@
                  #indigo{
                     background-color: indigo;
                     left:1400px;
-                    top:1800px; 
-                    animation: toUp 1.5s;  
+                    top:1800px;
+                    animation: toUp 1.5s;
                 }
                 #indigo2{
                     background-color: indigo;
@@ -186,14 +186,5 @@
                 @keyframes toUp{
                     from{top:1800px;}
                     to{top:900px;}
-                }  
-               */
-                
-                div.diagonal{
-                    display : none;
                 }
-
-                
-
-
-
+               */
